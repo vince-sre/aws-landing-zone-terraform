@@ -12,3 +12,5 @@ terraform.rc
 backend.hcl
 !backend.hcl.example
 terraform.tfvars
+__pycache__/
+.pytest_cache/
