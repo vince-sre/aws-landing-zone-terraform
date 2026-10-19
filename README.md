@@ -1,6 +1,6 @@
 # aws-landing-zone-terraform
 
-[![ci](https://github.com/vince-cloud/aws-landing-zone-terraform/actions/workflows/ci.yml/badge.svg)](https://github.com/vince-cloud/aws-landing-zone-terraform/actions/workflows/ci.yml)
+[![ci](https://github.com/vince-sre/aws-landing-zone-terraform/actions/workflows/ci.yml/badge.svg)](https://github.com/vince-sre/aws-landing-zone-terraform/actions/workflows/ci.yml)
 ![Terraform](https://img.shields.io/badge/Terraform-%3E%3D1.6-7B42BC?logo=terraform)
 ![AWS Organizations](https://img.shields.io/badge/AWS-Organizations-FF9900?logo=amazonaws)
 
