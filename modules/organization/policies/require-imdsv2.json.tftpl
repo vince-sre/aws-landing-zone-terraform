@@ -1,0 +1,23 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "RequireIMDSv2OnLaunch",
+      "Effect": "Deny",
+      "Action": "ec2:RunInstances",
+      "Resource": "arn:aws:ec2:*:*:instance/*",
+      "Condition": {
+        "StringNotEquals": { "ec2:MetadataHttpTokens": "required" }
+      }
+    },
+    {
+      "Sid": "DenyIMDSv1Downgrade",
+      "Effect": "Deny",
+      "Action": "ec2:ModifyInstanceMetadataOptions",
+      "Resource": "*",
+      "Condition": {
+        "StringNotEquals": { "ec2:MetadataHttpTokens": "required" }
+      }
+    }
+  ]
+}
