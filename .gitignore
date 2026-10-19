@@ -11,3 +11,4 @@ override.tf.json
 terraform.rc
 backend.hcl
 !backend.hcl.example
+terraform.tfvars
